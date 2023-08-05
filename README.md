@@ -9,11 +9,11 @@
 ## 1. 登录
 
 **调用地址**: `/api/xqsystem/login`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
@@ -21,7 +21,7 @@
 username | `True` | admin | 无
 password | `True` | 无 | 需要加密
 nonce | `True` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -35,17 +35,17 @@ token | 即 `stok` | 无 |
 ## 2. 获取初始化信息
 
 **调用地址**: `/api/xqsystem/init_info`  
-   
+
 **必须 Token**: `False`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -76,17 +76,17 @@ isRedmi | 是否为 Redmi | `1.True  0.False` |
 ## 3. 获取工厂信息
 
 **调用地址**: `/api/xqsystem/fac_info`  
-   
+
 **必须 Token**: `False`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -107,17 +107,17 @@ uart | 是否开启 UART | `Boolean` |
 ## 4. Farewell (未知)
 
 **调用地址**: `/api/xqsystem/farewell`  
-   
+
 **必须 Token**: `False`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -129,17 +129,17 @@ code | 状态码 | 0 |
 ## 5. 获取 Token 信息
 
 **调用地址**: `/api/xqsystem/token`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -154,17 +154,17 @@ token | 即 `stok` | 无 |
 ## 6. 设置 Init 状态
 
 **调用地址**: `/api/xqsystem/set_inited`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 client | `False` | `ios, android, other` | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -176,17 +176,17 @@ code | 状态码 | 0 |
 ## 7. 获取系统信息
 
 **调用地址**: `/api/xqsystem/sys_info`  
-   
+
 **必须 Token**: `False`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -202,17 +202,17 @@ romChannel | 固件类型 | 当前固件类型 (`release.稳定版  stable.开�
 ## 8. 置 Init 状态
 
 **调用地址**: `/api/xqsystem/set_inited`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 client | `False` | `ios, android, other` | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -224,11 +224,11 @@ code | 状态码 | 0 |
 ## 9. 设置密码
 
 **调用地址**: `/api/xqsystem/set_name_password`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
@@ -236,7 +236,7 @@ code | 状态码 | 0 |
 nonce | `True` | 无 | 无
 oldPwd | `True` | 无 | 旧的密码
 newPwd | `True` | 无 | 要设置的密码
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -249,17 +249,17 @@ msg | 状态信息 | 状态信息 (如果有) |
 ## 10. 检查固件更新
 
 **调用地址**: `/api/xqsystem/check_rom_update`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -276,17 +276,17 @@ status - percent | 未知 | 未知 |
 ## 11. WAN、LAN 口状态
 
 **调用地址**: `/api/xqsystem/lan_wan`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -305,19 +305,19 @@ devname | 接口名称 | WAN/LAN 口对应的接口名称 |
 ## 12. 刷入固件
 
 **调用地址**: `/api/xqsystem/flash_rom`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
 
 **备注**: 刷入位于事先上传的固件
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -330,17 +330,17 @@ msg | 状态信息 | 状态信息 (如果有) |
 ## 13. 获取路由器名称
 
 **调用地址**: `/api/xqsystem/router_name`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -353,17 +353,17 @@ routerName | 路由器名称 | 当前路由器名称 |
 ## 14. 获取设备列表
 
 **调用地址**: `/api/xqsystem/device_list`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 all | `False` | 0 | `1.显示所有连接过的设备  0.显示当前连接的设备`
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -408,11 +408,11 @@ online | 是否在线 | 设备当前是否在线 (`1.True  0.False`) |
 ## 15. 设置设备名称
 
 **调用地址**: `/api/xqsystem/set_device_nickname`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
@@ -421,7 +421,7 @@ mac | `True` | 无 | 要修改名称的设备的 MAC 地址
 name | `True` | 无 | 要设置的名称
 owner | `False` | 无 | 未知
 device | `False` | 无 | 未知
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -434,17 +434,17 @@ msg | 状态信息 | 状态信息 (如果有) |
 ## 16. 是否联网成功
 
 **调用地址**: `/api/xqsystem/internet_connect`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -457,17 +457,17 @@ connect | 联网状态 | `0.True  1.False` |
 ## 17. 上传 ROM 文件 ([参见: 刷入固件](#刷入固件))
 
 **调用地址**: `/api/xqsystem/upload_rom`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `POST / PUT`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 UPLOADFILE | `True` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -481,17 +481,17 @@ downgrade | 是否为降级固件 | `Boolean`
 ## 18. 获取可用语言
 
 **调用地址**: `/api/xqsystem/get_languages`  
-   
+
 **必须 Token**: `False`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -506,17 +506,17 @@ lang | 当前语言 | 当前语言 |
 ## 19. 获取当前语言
 
 **调用地址**: `/api/xqsystem/get_main_language`  
-   
+
 **必须 Token**: `False`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -529,17 +529,17 @@ lang | 当前语言代码 | 当前语言代码 |
 ## 20. 设置语言
 
 **调用地址**: `/api/xqsystem/set_language`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 language | `True` | 无 | 语言代码
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -552,17 +552,17 @@ msg | 状态信息 | 状态信息 (如果有) |
 ## 21. 上传日志
 
 **调用地址**: `/api/xqsystem/upload_log`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -575,11 +575,11 @@ msg | 状态信息 | 状态信息 (如果有) |
 ## 22. 设置基本信息 (初始化)
 
 **调用地址**: `/api/xqsystem/router_init`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
@@ -593,7 +593,7 @@ wifi50Ssid | `True` | 无 | 5Ghz WiFi SSID
 wanType | `True` | 无 | `wan` 类型 `(pppoe.拨号  dhcp.自动获取)`
 pppoeName | `False` | 无 | 宽带账号
 pppoePwd | `False` | 无 | 宽带密码
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -606,17 +606,17 @@ msg | 状态信息 | 状态信息 (如果有) |
 ## 23. 获取详细信息
 
 **调用地址**: `/api/xqsystem/information`  
-   
+
 **必须 Token**: `True`   
-   
+
 **请求方式**: `Everything`   
-   
+
 ### 参数说明
 
 参数名称 | 必须 | 默认值 | 备注
 -|-|-|-
 无 | `False` | 无 | 无
-   
+
 ### 返回值说明
 
 参数名称 | 解释 | 值 |
@@ -677,3 +677,100 @@ lan - dnsAddrs | DNS 1 | `lan` 口的 DNS 1 |
 lan - dnsAddrs1 | DNS 2 | `lan` 口的 DNS 2 |
 lan - ipv4 - mask | LAN 子网掩码 | LAN 子网掩码 |
 lan - ipv4 - ip | LAN IPv4 地址 | LAN IPv4 地址 |
+
+------
+
+## 24. 获取路由器状态
+
+**调用地址**: `/api/misystem/status`  
+
+**必须 Token**: `True`   
+
+**请求方式**: `GET`   
+
+### 参数说明
+
+参数名称 | 必须 | 默认值 | 备注
+-|-|-|-
+无 | `False` | 无 | 无
+
+### 返回值说明
+
+参数名称 | 解释 | 值 
+-|-|-
+code | 状态码 | 0 
+ dev         | 设备列表     | 数组 
+mem | 内存状态     | 数组                   
+temperature | 温度 | 若没有温度传感器则为0 
+count | 连接设备计数 | 数组 
+hardware | 路由器信息 | 数组 
+upTime | 在线时长 | 路由器的运行时间（秒） 
+cpu | cpu信息 | 数组 
+wan | `wan`口数据 | 数组 
+
+#### dev数组
+
+> 内有多个数组
+
+| 参数名称         | 解释         | 值                           |
+| ---------------- | ------------ | ---------------------------- |
+| mac              | mac          | 设备mac地址                  |
+| maxdownloadspeed | 最大下载速度 | 数字（B/S）                  |
+| upload           | 总上传量     | 数字（B）                    |
+| upspeed          | 上传速度     | 数字（B/S）                  |
+| downspeed        | 下载速度     | 数字（B/S）                  |
+| online           | 在线时长     | 数字（S）                    |
+| devname          | 设备名称     | 所连接设备的名称（自定义后） |
+| maxuploadspeed   | 最大上传速度 | 数字（B/S）                  |
+| download         | 总下载量     | 数字（B）                    |
+
+#### mem数组
+
+| 参数名称 | 解释     | 值                       |
+| -------- | -------- | ------------------------ |
+| usage    | 内存占用 | 小数（eg:**0.5**）       |
+| total    | 内存大小 | 字符串（eg:**128MB**）   |
+| hz       | 内存频率 | 字符串（eg:**1200MHz**） |
+| type     | 内存类型 | 字符串（eg:**DDR3**）    |
+
+#### count数组
+
+| 参数名称 | 解释               | 值   |
+| -------- | ------------------ | ---- |
+| all      | 连接过的设备数量   | 数字 |
+| online   | 当前在线的设备数量 | 数字 |
+
+#### hardware数组
+
+| 参数名称 | 解释           | 值     |
+| -------- | -------------- | ------ |
+| mac      | 路由器MAC地址  | 字符串 |
+| platform | 路由器型号     | 字符串 |
+| version  | 路由器系统版本 | 字符串 |
+| channel  | 路由器发行版本 | 字符串 |
+| sn       | 路由器**sn**码 | 字符串 |
+
+#### cpu数组
+
+| 参数名称 | 解释      | 值     |
+| -------- | --------- | ------ |
+| core     | CPU核心数 | 数字   |
+| hz       | CPU频率   | 字符串 |
+| load     | CPU占用   | 小数   |
+
+#### wan数组
+
+| 参数名称         | 解释                    | 值     |
+| ---------------- | ----------------------- | ------ |
+| downspeed        | `wan`口的下载速度       | 数字   |
+| maxdownloadspeed | `wan`口的最大下载速度   | 数字   |
+| history          | `wan`口的上下行速度之和 | 数组   |
+| devname          | `wan`口设备名称         | 字符串 |
+| upload           | `wan`口总上传量         | 数字   |
+| upspeed          | `wan`口的下载速度       | 数字   |
+| maxuploadspeed   | `wan`口的最大上传速度   | 数字   |
+| download         | `wan`口的最大下载       | 数字   |
+
+##### history数组
+
+​	有50个数字
