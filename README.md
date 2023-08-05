@@ -12,7 +12,7 @@
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -38,7 +38,7 @@ token | 即 `stok` | 无 |
 
 **必须 Token**: `False`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -79,7 +79,7 @@ isRedmi | 是否为 Redmi | `1.True  0.False` |
 
 **必须 Token**: `False`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -110,7 +110,7 @@ uart | 是否开启 UART | `Boolean` |
 
 **必须 Token**: `False`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -132,7 +132,7 @@ code | 状态码 | 0 |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -157,7 +157,7 @@ token | 即 `stok` | 无 |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -179,7 +179,7 @@ code | 状态码 | 0 |
 
 **必须 Token**: `False`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -205,7 +205,7 @@ romChannel | 固件类型 | 当前固件类型 (`release.稳定版  stable.开�
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -227,7 +227,7 @@ code | 状态码 | 0 |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -252,7 +252,7 @@ msg | 状态信息 | 状态信息 (如果有) |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -279,7 +279,7 @@ status - percent | 未知 | 未知 |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -289,16 +289,16 @@ status - percent | 未知 | 未知 |
 
 ### 返回值说明
 
-参数名称 | 解释 | 值 |
--|-|-|
-code | 状态码 | 0 |
-downspeed | 当前下载速度 | 当前下载速度 (Bit/s) |
-maxdownloadspeed | 最高下载速度 | 最高下载速度 (Bit/s) |
-download | 已下载的数据量 | 已下载的数据量 (Bit) |
-upspeed | 当前上传速度 | 当前上传速度 (Bit/s) |
-maxuploadspeed | 最高上传速度 | 最高上传速度 (Bit/s) |
-upload | 已上传的数据量 | 已上传的数据量 (Bit) |
-devname | 接口名称 | WAN/LAN 口对应的接口名称 |
+参数名称 | 解释 | 值 
+-|-|-
+code | 状态码 | 0 
+downspeed | 当前下载速度 | 当前下载速度 (Bit/s) 
+maxdownloadspeed | 最高下载速度 | 最高下载速度 (Bit/s) 
+download | 已下载的数据量 | 已下载的数据量 (Bit) 
+upspeed | 当前上传速度 | 当前上传速度 (Bit/s) 
+maxuploadspeed | 最高上传速度 | 最高上传速度 (Bit/s) 
+upload | 已上传的数据量 | 已上传的数据量 (Bit) 
+devname | 接口名称 | WAN/LAN 口对应的接口名称 
 
 -----
 
@@ -308,7 +308,7 @@ devname | 接口名称 | WAN/LAN 口对应的接口名称 |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 **备注**: 刷入位于事先上传的固件
 
@@ -333,7 +333,7 @@ msg | 状态信息 | 状态信息 (如果有) |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -356,7 +356,7 @@ routerName | 路由器名称 | 当前路由器名称 |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -411,7 +411,7 @@ online | 是否在线 | 设备当前是否在线 (`1.True  0.False`) |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -437,7 +437,7 @@ msg | 状态信息 | 状态信息 (如果有) |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -484,7 +484,7 @@ downgrade | 是否为降级固件 | `Boolean`
 
 **必须 Token**: `False`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -509,7 +509,7 @@ lang | 当前语言 | 当前语言 |
 
 **必须 Token**: `False`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -532,7 +532,7 @@ lang | 当前语言代码 | 当前语言代码 |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -555,7 +555,7 @@ msg | 状态信息 | 状态信息 (如果有) |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -578,7 +578,7 @@ msg | 状态信息 | 状态信息 (如果有) |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -609,7 +609,7 @@ msg | 状态信息 | 状态信息 (如果有) |
 
 **必须 Token**: `True`   
 
-**请求方式**: `Everything`   
+**请求方式**: `GET`   
 
 ### 参数说明
 
@@ -774,3 +774,26 @@ wan | `wan`口数据 | 数组
 ##### history数组
 
 ​	有50个数字，表示速度（B/S）
+
+-----
+
+## 25. 修改路由器名称
+
+**调用地址**: `/api/xqsystem/set_router_name`  
+
+**必须 Token**: `True`   
+
+**请求方式**: `GET`   
+
+### 参数说明
+
+| 参数名称   | 必须   | 默认值 | 备注         |
+| ---------- | ------ | ------ | ------------ |
+| **locale** | `True` | 无     | 路由器新位置 |
+| **name**   | `True` | 无     | 路由器新名称 |
+
+### 返回值说明
+
+| 参数名称 | 解释   | 值   |
+| -------- | ------ | ---- |
+| code     | 状态码 | 0    |
