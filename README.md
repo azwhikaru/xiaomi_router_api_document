@@ -760,17 +760,17 @@ wan | `wan`口数据 | 数组
 
 #### wan数组
 
-| 参数名称         | 解释                    | 值     |
-| ---------------- | ----------------------- | ------ |
-| downspeed        | `wan`口的下载速度       | 数字   |
-| maxdownloadspeed | `wan`口的最大下载速度   | 数字   |
-| history          | `wan`口的上下行速度之和 | 数组   |
-| devname          | `wan`口设备名称         | 字符串 |
-| upload           | `wan`口总上传量         | 数字   |
-| upspeed          | `wan`口的下载速度       | 数字   |
-| maxuploadspeed   | `wan`口的最大上传速度   | 数字   |
-| download         | `wan`口的最大下载       | 数字   |
+| 参数名称         | 解释                              | 值     |
+| ---------------- | --------------------------------- | ------ |
+| downspeed        | `wan`口的下载速度                 | 数字   |
+| maxdownloadspeed | `wan`口的最大下载速度             | 数字   |
+| history          | `wan`口的上下行速度之和的历史记录 | 数组   |
+| devname          | `wan`口设备名称                   | 字符串 |
+| upload           | `wan`口总上传量                   | 数字   |
+| upspeed          | `wan`口的下载速度                 | 数字   |
+| maxuploadspeed   | `wan`口的最大上传速度             | 数字   |
+| download         | `wan`口的最大下载                 | 数字   |
 
 ##### history数组
 
-​	有50个数字
+​	有50个数字，表示速度（B/S）
